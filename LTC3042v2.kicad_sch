@@ -964,16 +964,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 74.93 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "716189be-1f66-4aaf-9ac4-e0bb17eb79e2")
-	)
-	(wire
-		(pts
 			(xy 93.98 73.66) (xy 93.98 71.12)
 		)
 		(stroke
@@ -994,7 +984,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 73.66) (xy 224.79 73.66)
+			(xy 212.09 73.66) (xy 240.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1041,6 +1031,16 @@
 			(type default)
 		)
 		(uuid "916a12ca-3797-4d00-b222-c4952fe4810e")
+	)
+	(wire
+		(pts
+			(xy 48.26 71.12) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b43e92-829b-4945-9538-f931227df6fe")
 	)
 	(wire
 		(pts
@@ -1222,25 +1222,27 @@
 		)
 		(uuid "ff01b2a1-1de8-425a-b4c0-7ae1dcfcc0e7")
 	)
-	(label "V_OUT_+16.5"
-		(at 60.96 71.12 0)
+	(hierarchical_label "V_OUT_12V"
+		(shape input)
+		(at 240.03 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f183005d-5824-4168-babe-0c1cdb64f42d")
+		(uuid "44e3c144-0042-4c3c-97e1-5b24dc625cfb")
 	)
-	(label "V_12V"
-		(at 224.79 73.66 0)
+	(hierarchical_label "V_OUT_+16.5"
+		(shape input)
+		(at 48.26 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "fb7326ff-9fde-46c9-aef4-7b0018a4871b")
+		(uuid "f8338438-8fce-4a79-864e-451e802f8fa0")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1310,14 +1312,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "f50cfedc-e5bc-4755-bebb-f87c7029bf22")
+			(uuid "dd798594-121e-40a2-9bf3-107c8ed7b278")
 		)
 		(pin "1"
-			(uuid "e70bce38-b22b-49a7-8351-0299c2fae8b7")
+			(uuid "52845cea-0951-4778-902f-c5d14c71bcce")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "C18")
 					(unit 1)
 				)
@@ -1392,41 +1394,41 @@
 			)
 		)
 		(pin "4"
-			(uuid "c2ff490c-1049-4696-a168-5ca66ebdaa64")
+			(uuid "7f97d00b-466d-41e4-80dc-2bdfce1511c8")
 		)
 		(pin "1"
-			(uuid "d1b0dbf6-8bd2-4824-9735-58857a0f30fe")
+			(uuid "03c94c84-3d52-49ad-903a-44b72a45493d")
 		)
 		(pin "6"
-			(uuid "98b3acaf-aa2a-4021-b7e6-6e958aad719f")
+			(uuid "578c7f9e-1165-4f41-9b55-0b136a7a62d8")
 		)
 		(pin "3"
-			(uuid "e08a5a6f-5083-452b-aed2-a235a7b7cddd")
+			(uuid "0f003395-d0a1-49dc-bf83-20b4301993de")
 		)
 		(pin "2"
-			(uuid "b1e4d3ba-b987-4640-b8a6-c04fbcc30404")
+			(uuid "dabc5883-03fb-4ff5-87f1-f8744e67c628")
 		)
 		(pin "7"
-			(uuid "2790aba0-1b05-4c5e-87f8-7c4a46f37bd9")
+			(uuid "0fc1a30b-545f-4563-8a7e-5de83c87d5ea")
 		)
 		(pin "8"
-			(uuid "fe53d7a9-af54-44d5-a11c-eddf6aa6ec41")
+			(uuid "b144444e-ca77-4f75-9da4-c8d45653b075")
 		)
 		(pin "9"
-			(uuid "fa7e9fd0-85d6-45ec-b7ef-c2db8f712574")
+			(uuid "4c704860-3f47-4153-82bd-8691a539fb7c")
 		)
 		(pin "5"
-			(uuid "de86ba35-c55f-45a0-b27e-1767584e9c52")
+			(uuid "69559ef3-4976-45c7-975a-b85f455443a7")
 		)
 		(pin "10"
-			(uuid "6d1889c7-9fc9-4b95-aa7e-4cc94795e95e")
+			(uuid "67feb08f-1a28-48b8-ab38-770f34622b38")
 		)
 		(pin "11"
-			(uuid "d6dc51ea-967d-4732-b3c1-275e9c70c0ba")
+			(uuid "cb849cd8-9a49-464f-92e5-38b1a8210372")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "U8")
 					(unit 1)
 				)
@@ -1501,14 +1503,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "55b08b1f-4036-4474-bace-ac647aed4583")
+			(uuid "4f0862f0-e0e9-44ea-acf0-1ed91c2d07e7")
 		)
 		(pin "2"
-			(uuid "987e3c02-12b8-4a7a-86f1-ea97a113bb8b")
+			(uuid "9b58b4f7-d57b-4b57-8938-964dca5a9223")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "R32")
 					(unit 1)
 				)
@@ -1583,14 +1585,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a15f2e5-66a5-4c51-b228-906666568d07")
+			(uuid "0048790d-b523-4687-8bd6-0bfed263af88")
 		)
 		(pin "2"
-			(uuid "892cd3e5-9bf1-47b6-97c8-6e2c25d0d6a3")
+			(uuid "4c06fc87-eea0-47f3-b577-ff325a105e49")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "R23")
 					(unit 1)
 				)
@@ -1664,11 +1666,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d74ffa4-d0fa-4da7-ba33-2db0595d4ab7")
+			(uuid "f4cae4e2-c557-4da3-889b-098f41a11958")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -1743,14 +1745,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "aef63c70-19be-46d6-ae1e-4819f584a6b1")
+			(uuid "927948db-c22f-4f02-9e1d-90ddcd78b181")
 		)
 		(pin "2"
-			(uuid "e05d0c74-23e8-44f2-9550-b49ca0d07358")
+			(uuid "2491d216-5699-4e26-abb6-67f391ce824e")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "R33")
 					(unit 1)
 				)
@@ -1825,14 +1827,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5df9f00-57d3-4b9a-8bec-97ef338a981c")
+			(uuid "0e0ebd42-dc08-4877-8f57-937d83b3cdf9")
 		)
 		(pin "2"
-			(uuid "356247b9-2315-4336-9bc4-524f0c68a092")
+			(uuid "8ad9e45e-18d7-4533-b6db-71a1c73d3b42")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "R34")
 					(unit 1)
 				)
@@ -1907,14 +1909,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3e839cf-9018-403d-a81b-133187982205")
+			(uuid "f7836745-1d61-4c3c-9962-05fa9c61a212")
 		)
 		(pin "2"
-			(uuid "8dbb7ff9-6d49-4c6a-93c0-bd8546a7a158")
+			(uuid "7fc7a7d0-cf7b-4b7b-9695-86ff017ac1ec")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "C17")
 					(unit 1)
 				)
@@ -1989,62 +1991,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "753cb9aa-d2b9-4cdf-aed4-54f08866c603")
+			(uuid "684a0026-b23e-482f-ac61-6cc27e96b9ce")
 		)
 		(pin "1"
-			(uuid "59874fed-a1c6-4bd9-aae6-108675ef24b1")
+			(uuid "311ec663-ce99-4383-bc50-9861ab57e654")
 		)
 		(instances
 			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/c4417f33-95a3-491f-8769-9984a1736115"
 					(reference "C38")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 21.59)
-		(size 27.94 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "ff613429-2a95-4a80-91cc-84b39e51ae46")
-		(property "Sheetname" "LTC6655LN-5"
-			(at 19.05 20.8784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ltc6655ln-5.kicad_sch"
-			(at 19.05 31.0646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/90c28152-19e4-47c0-b14f-3d9754ce4227/da7d2b28-7b50-4d5e-9a23-a4ffde2de206"
-					(page "3")
 				)
 			)
 		)

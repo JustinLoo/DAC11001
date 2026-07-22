@@ -630,9 +630,24 @@
         "filename": "DAC11001.kicad_sch",
         "name": "DAC11001",
         "uuid": "d47dddaa-1169-4924-a666-b75ea4bc2aeb"
+      },
+      {
+        "filename": "iso.kicad_sch",
+        "name": "ISO",
+        "uuid": "7d6a26c1-172d-4ef1-b333-30f014f26d9e"
+      },
+      {
+        "filename": "lt3999_1.kicad_sch",
+        "name": "LT3999",
+        "uuid": "e0aa5e38-0527-4cf2-b522-8958e99675c0"
+      },
+      {
+        "filename": "ltc6655ln-5_1.kicad_sch",
+        "name": "LTC6655LN-5 1",
+        "uuid": "edcdd6f3-2b2e-4116-ae3c-2325052d59a6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-15,T2,R4-17,R19-46,L3-4,D2-3,D5-8,C1-44,#PWR13,#PWR15-21,#PWR24-35,#PWR37-38",
     "variants": []
   },
   "sheets": [
@@ -641,52 +656,40 @@
       "DAC11001"
     ],
     [
-      "5ad28e6f-ee73-4b65-bae6-2cd262b8ea89",
-      "+-15V Supply"
-    ],
-    [
-      "ff613429-2a95-4a80-91cc-84b39e51ae46",
-      "LTC6655LN-5"
-    ],
-    [
-      "e1ae31ad-1dac-4987-a3d4-790585f171d3",
-      "LT3042"
-    ],
-    [
-      "e391d005-bed1-43eb-828e-6526cc758b63",
-      "LT3094"
-    ],
-    [
-      "97ba46ee-9723-4f8c-811a-5f0a70e859ab",
-      "Output Stage"
-    ],
-    [
-      "66c60e08-9e27-4204-ab8d-ff51346a6bc8",
-      "OPA828"
-    ],
-    [
-      "da7d2b28-7b50-4d5e-9a23-a4ffde2de206",
-      "LTC3042"
-    ],
-    [
-      "674a7779-f709-41a4-ab06-7cf143a54cee",
+      "e0aa5e38-0527-4cf2-b522-8958e99675c0",
       "LT3999"
     ],
     [
-      "90c28152-19e4-47c0-b14f-3d9754ce4227",
-      "Reference Voltages"
+      "c4417f33-95a3-491f-8769-9984a1736115",
+      "LTC3042v2"
     ],
     [
-      "994009ce-7d72-4c20-956f-48f8c551d769",
-      "OPA828_4X"
+      "edcdd6f3-2b2e-4116-ae3c-2325052d59a6",
+      "LTC6655LN-5 1"
     ],
     [
-      "7bb55e9d-69bb-475a-95aa-ce084c4b1842",
-      "SPI"
+      "a51504ea-beb4-463b-b6c9-172c1b9f5f4b",
+      "LT3042"
     ],
     [
-      "a215338a-5bae-4d4e-9d14-5380f08ccb1a",
-      "ISO7761"
+      "7933b1d9-37b7-42e4-861c-0c3dd9e959de",
+      "OPA828 OUT"
+    ],
+    [
+      "99355de9-7e09-497d-8267-eff07b009003",
+      "LT3094"
+    ],
+    [
+      "7d6a26c1-172d-4ef1-b333-30f014f26d9e",
+      "ISO"
+    ],
+    [
+      "7e4ac72e-4486-470f-b637-0752120cc81e",
+      "LT3042"
+    ],
+    [
+      "4741fee4-9c57-455d-b057-ec5a23de6781",
+      "LT3094"
     ]
   ],
   "text_variables": {},
