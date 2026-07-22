@@ -1312,16 +1312,6 @@
 		)
 		(uuid "ff093271-3a4e-47b4-81b4-79d46734a1d6")
 	)
-	(label "V_OUT_-16.5"
-		(at 72.39 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4994d8b1-adf8-4c40-aeef-6b2c899cb8fb")
-	)
 	(label "V_C_-15"
 		(at 237.49 74.93 0)
 		(effects
@@ -1331,6 +1321,17 @@
 			(justify left bottom)
 		)
 		(uuid "c5ba7b7e-7f00-478c-86ab-0413f1b187af")
+	)
+	(hierarchical_label "V_OUT_-16.5"
+		(shape input)
+		(at 72.39 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "821be219-b49b-49b3-ad48-706853bd31ad")
 	)
 	(symbol
 		(lib_id "Device:C")

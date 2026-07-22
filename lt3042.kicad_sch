@@ -769,6 +769,12 @@
 		(uuid "59bf5dfa-b355-403a-a41d-7fe550fa8f9f")
 	)
 	(junction
+		(at 96.52 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc6eeea-e316-4f57-af15-0160dae77440")
+	)
+	(junction
 		(at 218.44 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -797,12 +803,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91b7ae62-60c1-4de9-8c81-ac505ff8472d")
-	)
-	(junction
-		(at 96.52 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0b021fa-0c75-49a4-a0da-b8a6d0de1bd9")
 	)
 	(junction
 		(at 184.15 73.66)
@@ -1024,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 71.12) (xy 96.52 71.12)
+			(xy 81.28 71.12) (xy 96.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1222,25 +1222,27 @@
 		)
 		(uuid "ff71927f-3bd3-46f2-958e-c966206cb158")
 	)
-	(label "V_OUT_+16.5"
-		(at 82.55 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4593ba12-7183-4994-a50b-7edbe2091db8")
-	)
-	(label "V_C_+15V"
+	(hierarchical_label "V_C_+15V"
+		(shape input)
 		(at 246.38 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8727c8df-1b86-4078-84a6-3fb0fb5b0e10")
+		(uuid "7c16ac64-46fa-4ae0-8974-aad2666c8734")
+	)
+	(hierarchical_label "V_OUT_+16.5"
+		(shape input)
+		(at 81.28 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1a06862-f429-46db-95f5-2d7fa6019024")
 	)
 	(symbol
 		(lib_id "Device:R")
