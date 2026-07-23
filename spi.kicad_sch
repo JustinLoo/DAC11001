@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0fc0a6e5-73b8-4cf5-a642-aa3e8ea52f45")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 74.93)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a215338a-5bae-4d4e-9d14-5380f08ccb1a")
+		(property "Sheetname" "ISO7761"
+			(at 127 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "iso7761.kicad_sch"
+			(at 127 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7bb55e9d-69bb-475a-95aa-ce084c4b1842"
+					(page "13")
+				)
+			)
+		)
+	)
+)
