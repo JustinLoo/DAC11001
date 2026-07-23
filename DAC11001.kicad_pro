@@ -633,21 +633,41 @@
       },
       {
         "filename": "iso.kicad_sch",
-        "name": "ISO",
+        "name": "ISO7761",
         "uuid": "7d6a26c1-172d-4ef1-b333-30f014f26d9e"
       },
       {
-        "filename": "lt3999_1.kicad_sch",
-        "name": "LT3999",
-        "uuid": "e0aa5e38-0527-4cf2-b522-8958e99675c0"
+        "filename": "lt3042v2.kicad_sch",
+        "name": "LT3042v2",
+        "uuid": "abdba638-bc95-4869-83fe-bbcdf8030f26"
       },
       {
-        "filename": "ltc6655ln-5_1.kicad_sch",
-        "name": "LTC6655LN-5 1",
-        "uuid": "edcdd6f3-2b2e-4116-ae3c-2325052d59a6"
+        "filename": "opa828_4x.kicad_sch",
+        "name": "OPA828 4X",
+        "uuid": "fbf63246-7b72-4d60-aadb-72553e5c55d3"
+      },
+      {
+        "filename": "lt3999.kicad_sch",
+        "name": "LT3999",
+        "uuid": "688e2b68-3871-489b-b27a-c18d3c11fcf6"
+      },
+      {
+        "filename": "lt3042.kicad_sch",
+        "name": "LT3042",
+        "uuid": "924ca917-6b99-40f8-9087-94374e4e1bff"
+      },
+      {
+        "filename": "lt3094.kicad_sch",
+        "name": "LT3094",
+        "uuid": "6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b"
+      },
+      {
+        "filename": "ltc6655ln-5.kicad_sch",
+        "name": "LTC6655LN-5",
+        "uuid": "27ccabb2-d2da-4b2c-92e1-dc22db5fb5e1"
       }
     ],
-    "used_designators": "U1-15,T2,R4-17,R19-46,L3-4,D2-3,D5-8,C1-44,#PWR13,#PWR15-21,#PWR24-35,#PWR37-38",
+    "used_designators": "T2,L3-4,D1-8,#PWR13,#PWR15-18,#PWR21,#PWR24-33,#PWR37-38,C4-49,R4-17,R19-36,U1-5,U8-17",
     "variants": []
   },
   "sheets": [
@@ -656,40 +676,48 @@
       "DAC11001"
     ],
     [
-      "e0aa5e38-0527-4cf2-b522-8958e99675c0",
-      "LT3999"
-    ],
-    [
-      "c4417f33-95a3-491f-8769-9984a1736115",
-      "LTC3042v2"
-    ],
-    [
-      "edcdd6f3-2b2e-4116-ae3c-2325052d59a6",
-      "LTC6655LN-5 1"
-    ],
-    [
-      "a51504ea-beb4-463b-b6c9-172c1b9f5f4b",
+      "924ca917-6b99-40f8-9087-94374e4e1bff",
       "LT3042"
+    ],
+    [
+      "3050d66d-9f3f-4cdb-9ee2-e7609f8feb6d",
+      "LTC6655LN-5"
+    ],
+    [
+      "fbf63246-7b72-4d60-aadb-72553e5c55d3",
+      "OPA828 4X"
+    ],
+    [
+      "3050d66d-9f3f-4cdb-9ee2-e7609f8feb6d",
+      "LTC6655LN-5"
+    ],
+    [
+      "abdba638-bc95-4869-83fe-bbcdf8030f26",
+      "LT3042v2"
+    ],
+    [
+      "6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b",
+      "LT3094"
+    ],
+    [
+      "27ccabb2-d2da-4b2c-92e1-dc22db5fb5e1",
+      "LTC6655LN-5"
     ],
     [
       "7933b1d9-37b7-42e4-861c-0c3dd9e959de",
       "OPA828 OUT"
     ],
     [
-      "99355de9-7e09-497d-8267-eff07b009003",
-      "LT3094"
+      "7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7",
+      "OPA828 4x"
     ],
     [
       "7d6a26c1-172d-4ef1-b333-30f014f26d9e",
-      "ISO"
+      "ISO7761"
     ],
     [
-      "7e4ac72e-4486-470f-b637-0752120cc81e",
-      "LT3042"
-    ],
-    [
-      "4741fee4-9c57-455d-b057-ec5a23de6781",
-      "LT3094"
+      "688e2b68-3871-489b-b27a-c18d3c11fcf6",
+      "LT3999"
     ]
   ],
   "text_variables": {},

@@ -715,4 +715,5 @@
 			(page "10")
 		)
 	)
+	(embedded_fonts no)
 )

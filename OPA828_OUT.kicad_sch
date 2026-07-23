@@ -600,6 +600,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 62.23) (xy 81.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0463666a-31cc-4675-999c-f95846a27e76")
+	)
+	(wire
+		(pts
 			(xy 95.25 115.57) (xy 97.79 115.57)
 		)
 		(stroke
@@ -627,6 +637,16 @@
 			(type default)
 		)
 		(uuid "1331c555-d720-4e76-a212-548a60bef1ae")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d736bd-b656-4016-8cd1-0b7cd6c151cb")
 	)
 	(wire
 		(pts
@@ -780,6 +800,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 62.23) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa263941-af03-4a9a-88e5-b62e073149c8")
+	)
+	(wire
+		(pts
 			(xy 54.61 88.9) (xy 54.61 95.25)
 		)
 		(stroke
@@ -828,26 +858,6 @@
 		)
 		(uuid "f5d53c63-eac5-4942-8157-e07118a9b364")
 	)
-	(label "V_ROFS"
-		(at 83.82 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2172875f-ed3b-4672-9872-97c62ae9c86f")
-	)
-	(label "V_C_+15V"
-		(at 144.78 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6561412-88be-44da-bb4a-6b5effdc39a2")
-	)
 	(label "V_FINAL_OUT"
 		(at 207.01 95.25 0)
 		(effects
@@ -857,16 +867,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8006c6b-d5ef-42ee-ab67-e39453d3a7b1")
-	)
-	(label "V_RCM"
-		(at 81.28 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb411837-8403-46c3-b98f-bd21d43d06dc")
 	)
 	(label "V_C_-15"
 		(at 95.25 124.46 0)
@@ -878,6 +878,17 @@
 		)
 		(uuid "cac9af3a-55bb-425f-865d-e9a91f914bca")
 	)
+	(hierarchical_label "V_RCM"
+		(shape input)
+		(at 85.09 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c52057f2-b091-45b6-9e88-279395b69512")
+	)
 	(hierarchical_label "V_DAC_OUT"
 		(shape input)
 		(at 54.61 88.9 0)
@@ -888,6 +899,17 @@
 			(justify left)
 		)
 		(uuid "cc2c12ec-1fb2-4ed5-9576-f87997c90d91")
+	)
+	(hierarchical_label "V_ROFS"
+		(shape input)
+		(at 83.82 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efbd2a71-6947-447e-acfe-52579c879e99")
 	)
 	(symbol
 		(lib_id "power:GNDA")
