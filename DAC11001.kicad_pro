@@ -667,7 +667,7 @@
         "uuid": "27ccabb2-d2da-4b2c-92e1-dc22db5fb5e1"
       }
     ],
-    "used_designators": "T2,L3-4,D1-8,#PWR13,#PWR15-18,#PWR21,#PWR24-33,#PWR37-38,C4-49,R4-17,R19-36,U1-5,U8-17",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -684,24 +684,12 @@
       "LTC6655LN-5"
     ],
     [
-      "fbf63246-7b72-4d60-aadb-72553e5c55d3",
-      "OPA828 4X"
-    ],
-    [
-      "3050d66d-9f3f-4cdb-9ee2-e7609f8feb6d",
-      "LTC6655LN-5"
-    ],
-    [
       "abdba638-bc95-4869-83fe-bbcdf8030f26",
       "LT3042v2"
     ],
     [
       "6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b",
       "LT3094"
-    ],
-    [
-      "27ccabb2-d2da-4b2c-92e1-dc22db5fb5e1",
-      "LTC6655LN-5"
     ],
     [
       "7933b1d9-37b7-42e4-861c-0c3dd9e959de",
@@ -712,12 +700,28 @@
       "OPA828 4x"
     ],
     [
+      "688e2b68-3871-489b-b27a-c18d3c11fcf6",
+      "LT3999"
+    ],
+    [
+      "02311885-f1d6-4880-a7b8-d43c51b41ace",
+      "ISO7761"
+    ],
+    [
+      "27ccabb2-d2da-4b2c-92e1-dc22db5fb5e1",
+      "LTC6655LN-5"
+    ],
+    [
       "7d6a26c1-172d-4ef1-b333-30f014f26d9e",
       "ISO7761"
     ],
     [
-      "688e2b68-3871-489b-b27a-c18d3c11fcf6",
-      "LT3999"
+      "fbf63246-7b72-4d60-aadb-72553e5c55d3",
+      "OPA828 4X"
+    ],
+    [
+      "3050d66d-9f3f-4cdb-9ee2-e7609f8feb6d",
+      "LTC6655LN-5"
     ]
   ],
   "text_variables": {},

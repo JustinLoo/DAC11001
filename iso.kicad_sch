@@ -526,65 +526,71 @@
 		)
 		(uuid "e50b153c-83a4-4e53-a2e3-d83c3242e4be")
 	)
-	(label "SDO"
-		(at 115.57 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "820b5248-35bf-4103-8d7f-d312831495c5")
-	)
-	(label "CLR"
-		(at 115.57 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c583a428-f5ae-4fe3-a928-887ab253cfd9")
-	)
-	(label "SYNC"
-		(at 115.57 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9479df2-e091-4f6c-8447-5e07579bd76e")
-	)
-	(label "SCLK"
-		(at 115.57 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d837f99b-3459-4789-ac0e-8660647b8002")
-	)
-	(label "SDIN"
-		(at 115.57 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec6d9d5d-faa9-423b-b886-cda27c6c2006")
-	)
-	(label "LDAC"
+	(hierarchical_label "LDAC"
+		(shape input)
 		(at 115.57 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f9d92b28-7ee9-4982-a1a5-ba830140b2b9")
+		(uuid "8f0c4229-f7a4-4784-80f9-7f292a89e5db")
+	)
+	(hierarchical_label "SYNC"
+		(shape input)
+		(at 115.57 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fe9990c-bc37-4018-8459-4dc28930298b")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 115.57 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6833c5b-d58d-4767-8968-873f436227a1")
+	)
+	(hierarchical_label "CLR"
+		(shape input)
+		(at 115.57 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5ffa129-df1f-4678-ace6-48d56577809a")
+	)
+	(hierarchical_label "SDO"
+		(shape input)
+		(at 115.57 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8500515-2edd-4c3c-9de6-4f7f684e9a70")
+	)
+	(hierarchical_label "SDIN"
+		(shape input)
+		(at 115.57 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f63828d2-036e-48d8-8db0-e563dd2734fa")
 	)
 	(symbol
 		(lib_id "2026-07-13_21-09-16:ISO7761DW")
@@ -598,7 +604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3c37eeb-a759-40e0-a5f5-a49d5ff0ab2f")
-		(property "Reference" "U6"
+		(property "Reference" "U18"
 			(at 88.9 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -708,12 +714,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/02311885-f1d6-4880-a7b8-d43c51b41ace"
+					(reference "U18")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "10")
-		)
-	)
-	(embedded_fonts no)
 )
