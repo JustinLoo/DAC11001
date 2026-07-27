@@ -1858,16 +1858,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 35.56) (xy 129.54 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e063abe7-6585-465f-a744-4703d823e527")
-	)
-	(wire
-		(pts
 			(xy 152.4 97.79) (xy 152.4 62.23)
 		)
 		(stroke
@@ -1998,6 +1988,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 30.48) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0b9b78-8487-458b-bfa5-2bf7c4852a17")
+	)
+	(wire
+		(pts
 			(xy 149.86 24.13) (xy 149.86 62.23)
 		)
 		(stroke
@@ -2016,27 +2016,7 @@
 		)
 		(uuid "ffd6be19-c7ae-475c-af47-d2ae07f3ab19")
 	)
-	(label "V_C_-15"
-		(at 184.15 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02af2671-6690-44e3-8c12-c23c5bca29bf")
-	)
-	(label "V_C_-15"
-		(at 182.88 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "647fa9f6-ffe5-4bb1-b59b-0743905d1073")
-	)
-	(label "V_C_-15"
+	(label "V_P_C_-15V"
 		(at 82.55 90.17 0)
 		(effects
 			(font
@@ -2044,29 +2024,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6a979e05-d0b5-49e4-b3b5-e52203739060")
+		(uuid "1a54c249-6404-4a18-97c2-974c368d16af")
 	)
-	(label "V_C_-15"
-		(at 100.33 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "835517af-1767-4158-98fc-ca3f4a783fe5")
-	)
-	(label "V_C_+15V"
-		(at 229.87 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3a02de3-297c-416c-81cc-195526627dd8")
-	)
-	(label "V_C_+15V"
+	(label "V_P_C_+15V"
 		(at 229.87 110.49 0)
 		(effects
 			(font
@@ -2074,9 +2034,49 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ca8efe0c-d28b-49d8-bf5b-f21b72645dde")
+		(uuid "338e4735-0541-48cc-879d-00d6dddcb9c2")
 	)
-	(label "V_C_+15V"
+	(label "V_P_C_+15V"
+		(at 229.87 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ae079ba-7117-4835-a7b1-7009f78f153c")
+	)
+	(label "V_P_C_-15V"
+		(at 182.88 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c3d80a6-a3cb-4f5a-8b1a-7600b91b5036")
+	)
+	(label "V_P_C_+15V"
+		(at 129.54 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66f67657-f2cc-4e5f-8411-d5281681003b")
+	)
+	(label "V_P_C_-15V"
+		(at 184.15 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e0ebae2-15e7-4d14-8cd7-7d88a8543e4a")
+	)
+	(label "V_P_C_+15V"
 		(at 154.94 114.3 0)
 		(effects
 			(font
@@ -2084,17 +2084,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df132d5b-48fc-4a05-8e93-184e4500f8f5")
+		(uuid "8eb8af94-867d-4126-b6b9-aea96649dbc0")
 	)
-	(label "V_C_+15V"
-		(at 129.54 35.56 0)
+	(label "V_P_C_-15V"
+		(at 100.33 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ffd28826-30a8-4ec4-914e-c82b03233c08")
+		(uuid "924eddfb-94c8-4e0d-b279-c6b7f43cb73b")
 	)
 	(hierarchical_label "V_REF+_SENSE"
 		(shape input)

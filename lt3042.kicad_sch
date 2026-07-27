@@ -1349,6 +1349,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "U10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1428,6 +1434,12 @@
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1513,6 +1525,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "C42")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1587,6 +1605,12 @@
 		(instances
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -1673,6 +1697,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1752,6 +1782,12 @@
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1837,6 +1873,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "C40")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1919,6 +1961,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "C41")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1998,6 +2046,12 @@
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
+					(reference "R43")
 					(unit 1)
 				)
 			)

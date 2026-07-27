@@ -1322,6 +1322,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1404,6 +1410,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1483,6 +1495,12 @@
 			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -1595,6 +1613,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "U16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1674,6 +1698,12 @@
 			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -1759,6 +1789,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "C48")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1838,6 +1874,12 @@
 			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -1923,6 +1965,12 @@
 					(unit 1)
 				)
 			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "R53")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2001,11 +2049,12 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "5")
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b0c6e875-56fd-4a79-9737-deb22c9bb7f9"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
