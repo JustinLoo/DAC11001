@@ -2330,12 +2330,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C11")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2410,12 +2404,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -2498,12 +2486,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2580,12 +2562,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "C26")
 					(unit 1)
 				)
@@ -2672,12 +2648,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C13")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2752,12 +2722,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -2843,12 +2807,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "R15")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2926,12 +2884,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "R16")
 					(unit 1)
 				)
@@ -3017,12 +2969,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "R17")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3103,12 +3049,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C29")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3183,12 +3123,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -3273,12 +3207,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C28")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3357,12 +3285,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3437,12 +3359,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -3547,12 +3463,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "U12")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3653,12 +3563,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "U13")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3737,12 +3641,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "C12")
 					(unit 1)
 				)
@@ -3827,12 +3725,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C23")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3907,12 +3799,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -3993,12 +3879,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "C30")
 					(unit 1)
 				)
@@ -4103,12 +3983,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "U14")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4209,12 +4083,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4297,12 +4165,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C34")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4379,12 +4241,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "C25")
 					(unit 1)
 				)
@@ -4471,12 +4327,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "D3")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4555,12 +4405,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "R12")
 					(unit 1)
 				)
@@ -4646,12 +4490,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "R14")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4728,12 +4566,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "C27")
 					(unit 1)
 				)
@@ -4816,12 +4648,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4896,12 +4722,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -4988,12 +4808,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C32")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5072,12 +4886,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "D2")
 					(unit 1)
 				)
@@ -5164,12 +4972,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C33")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5250,12 +5052,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C24")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5330,12 +5126,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/7086a9d1-48a4-4a7d-b4b0-a47e62cb9ad7"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -5421,12 +5211,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "R13")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5508,12 +5292,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(reference "C31")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(sheet
@@ -5564,18 +5342,10 @@
 				(justify right)
 			)
 		)
-		(instances
-			(project "DAC11001"
-				(path "/fbf63246-7b72-4d60-aadb-72553e5c55d3"
-					(page "4")
-				)
-			)
-		)
 	)
 	(sheet_instances
 		(path "/"
 			(page "3")
 		)
 	)
-	(embedded_fonts no)
 )

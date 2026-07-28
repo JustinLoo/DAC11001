@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -632,19 +648,9 @@
         "uuid": "d47dddaa-1169-4924-a666-b75ea4bc2aeb"
       },
       {
-        "filename": "iso.kicad_sch",
-        "name": "ISO7761",
-        "uuid": "7d6a26c1-172d-4ef1-b333-30f014f26d9e"
-      },
-      {
         "filename": "lt3042v2.kicad_sch",
         "name": "LT3042v2",
         "uuid": "abdba638-bc95-4869-83fe-bbcdf8030f26"
-      },
-      {
-        "filename": "opa828_4x.kicad_sch",
-        "name": "OPA828 4X",
-        "uuid": "fbf63246-7b72-4d60-aadb-72553e5c55d3"
       },
       {
         "filename": "lt3999.kicad_sch",
@@ -662,27 +668,18 @@
         "uuid": "6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b"
       },
       {
-        "filename": "ltc6655ln-5.kicad_sch",
-        "name": "LTC6655LN-5",
-        "uuid": "27ccabb2-d2da-4b2c-92e1-dc22db5fb5e1"
-      },
-      {
         "filename": "lt3042v3.kicad_sch",
         "name": "LT3042v3",
         "uuid": "7fba4707-d072-468a-a501-14a80bae184d"
       }
     ],
-    "used_designators": "U19",
+    "used_designators": "#PWR39,C14-16,C35-37,C39-51,D1,D4,D9-10,R19-22,R35-58,U1,U9-10,U15-17,L1-2,T1",
     "variants": []
   },
   "sheets": [
     [
       "d47dddaa-1169-4924-a666-b75ea4bc2aeb",
       "DAC11001"
-    ],
-    [
-      "3050d66d-9f3f-4cdb-9ee2-e7609f8feb6d",
-      "LTC6655LN-5"
     ],
     [
       "7933b1d9-37b7-42e4-861c-0c3dd9e959de",
@@ -697,36 +694,24 @@
       "ISO7761"
     ],
     [
-      "924ca917-6b99-40f8-9087-94374e4e1bff",
-      "LT3042"
-    ],
-    [
-      "abdba638-bc95-4869-83fe-bbcdf8030f26",
-      "LT3042v2"
-    ],
-    [
-      "27ccabb2-d2da-4b2c-92e1-dc22db5fb5e1",
-      "LTC6655LN-5"
-    ],
-    [
-      "7d6a26c1-172d-4ef1-b333-30f014f26d9e",
-      "ISO7761"
-    ],
-    [
       "6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b",
       "LT3094"
+    ],
+    [
+      "7fba4707-d072-468a-a501-14a80bae184d",
+      "LT3042v3"
     ],
     [
       "688e2b68-3871-489b-b27a-c18d3c11fcf6",
       "LT3999"
     ],
     [
-      "fbf63246-7b72-4d60-aadb-72553e5c55d3",
-      "OPA828 4X"
+      "abdba638-bc95-4869-83fe-bbcdf8030f26",
+      "LT3042v2"
     ],
     [
-      "7fba4707-d072-468a-a501-14a80bae184d",
-      "LT3042v3"
+      "924ca917-6b99-40f8-9087-94374e4e1bff",
+      "LT3042"
     ],
     [
       "3050d66d-9f3f-4cdb-9ee2-e7609f8feb6d",
