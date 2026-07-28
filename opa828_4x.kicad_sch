@@ -899,10 +899,16 @@
 		(uuid "5b7e7d83-bc79-4af1-b9d5-a88badeb9b11")
 	)
 	(junction
-		(at 184.15 157.48)
+		(at 184.15 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d41489a-3178-4eda-916e-a66d8f587f8e")
+	)
+	(junction
+		(at 182.88 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b97ca0-b0ee-4c78-b4c3-e2017457b4d8")
 	)
 	(junction
 		(at 257.81 62.23)
@@ -999,12 +1005,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4ae41f7-2b30-45d3-b4e3-9d619fdb288f")
-	)
-	(junction
-		(at 182.88 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd8a6b89-a635-48b0-b337-13c75576a625")
 	)
 	(wire
 		(pts
@@ -1218,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 182.88 90.17)
+			(xy 182.88 81.28) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 157.48) (xy 194.31 157.48)
+			(xy 200.66 153.67) (xy 194.31 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 140.97) (xy 184.15 157.48)
+			(xy 184.15 140.97) (xy 184.15 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 157.48) (xy 184.15 166.37)
+			(xy 184.15 153.67) (xy 184.15 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1818,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 157.48) (xy 186.69 157.48)
+			(xy 184.15 153.67) (xy 186.69 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2016,85 +2016,197 @@
 		)
 		(uuid "ffd6be19-c7ae-475c-af47-d2ae07f3ab19")
 	)
-	(label "V_P_C_-15V"
-		(at 82.55 90.17 0)
+	(global_label "V_P_C_+15V"
+		(shape input)
+		(at 154.94 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "1a54c249-6404-4a18-97c2-974c368d16af")
+		(uuid "308782fd-4c22-43d0-a0ea-de709d26d522")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3434 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_+15V"
-		(at 229.87 110.49 0)
+	(global_label "V_P_C_+15V"
+		(shape input)
+		(at 129.54 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "338e4735-0541-48cc-879d-00d6dddcb9c2")
+		(uuid "50bd0230-f211-4d97-9e6e-a3b52cbb4211")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.9434 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_+15V"
-		(at 229.87 38.1 0)
+	(global_label "V_P_C_+15V"
+		(shape input)
+		(at 229.87 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "3ae079ba-7117-4835-a7b1-7009f78f153c")
+		(uuid "68aa908b-ff1c-422b-b903-860cfe1f34db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.2734 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_-15V"
-		(at 182.88 90.17 0)
+	(global_label "V_P_C_-15V"
+		(shape input)
+		(at 82.55 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "3c3d80a6-a3cb-4f5a-8b1a-7600b91b5036")
+		(uuid "951f1443-5bd6-4f98-a52b-39d0fd988da3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.9534 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_+15V"
-		(at 129.54 30.48 0)
+	(global_label "V_P_C_+15V"
+		(shape input)
+		(at 229.87 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "66f67657-f2cc-4e5f-8411-d5281681003b")
+		(uuid "9bdcadf1-68e3-4cb5-88ea-ee1045299bb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.2734 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_-15V"
-		(at 184.15 166.37 0)
+	(global_label "V_P_C_-15V"
+		(shape input)
+		(at 184.15 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "8e0ebae2-15e7-4d14-8cd7-7d88a8543e4a")
+		(uuid "bbb37f6a-9984-407d-9ce6-d4d063425159")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.5534 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_+15V"
-		(at 154.94 114.3 0)
+	(global_label "V_P_C_-15V"
+		(shape input)
+		(at 100.33 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "8eb8af94-867d-4126-b6b9-aea96649dbc0")
+		(uuid "e31b3a50-2182-40c3-afc6-d5308fa46883")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.7334 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_-15V"
-		(at 100.33 167.64 0)
+	(global_label "V_P_C_-15V"
+		(shape input)
+		(at 182.88 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "924eddfb-94c8-4e0d-b279-c6b7f43cb73b")
+		(uuid "ef9b67ec-47d7-4797-b6ea-907cdbf3cad5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.2834 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "V_REF+_SENSE"
 		(shape input)
@@ -2570,7 +2682,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 200.66 157.48 0)
+		(at 200.66 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2581,7 +2693,7 @@
 		(fields_autoplaced yes)
 		(uuid "2432656c-697c-4358-b26d-4f9a25964592")
 		(property "Reference" "#PWR026"
-			(at 200.66 163.83 0)
+			(at 200.66 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +2704,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 200.66 162.56 0)
+			(at 200.66 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2602,7 +2714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 157.48 0)
+			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 157.48 0)
+			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2624,7 +2736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 200.66 157.48 0)
+			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4195,7 +4307,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 157.48 90)
+		(at 190.5 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4206,7 +4318,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0eecde2-5c04-426f-8389-d4d53091b839")
 		(property "Reference" "C25"
-			(at 190.5 149.86 90)
+			(at 190.5 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4216,7 +4328,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 190.5 152.4 90)
+			(at 190.5 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4226,7 +4338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 156.5148 0)
+			(at 194.31 152.7048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 157.48 0)
+			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4248,7 +4360,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 157.48 0)
+			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5465,4 +5577,5 @@
 			(page "3")
 		)
 	)
+	(embedded_fonts no)
 )

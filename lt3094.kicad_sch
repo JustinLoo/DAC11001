@@ -805,6 +805,12 @@
 		(uuid "5240066b-6177-4f34-a5dd-ead11c9951da")
 	)
 	(junction
+		(at 209.55 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65d07ca0-642b-43aa-a881-a1ea2b8cd527")
+	)
+	(junction
 		(at 175.26 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -876,12 +882,6 @@
 		(color 0 0 0 0)
 		(uuid "f2cc9f33-6190-4f03-bd7b-95f97a3aa0e3")
 	)
-	(junction
-		(at 209.55 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe6a71f7-1870-41fd-bc4f-d02f400b06f4")
-	)
 	(wire
 		(pts
 			(xy 63.5 73.66) (xy 80.01 73.66)
@@ -904,7 +904,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 80.01) (xy 228.6 80.01)
+			(xy 209.55 71.12) (xy 237.49 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1154,6 +1154,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 71.12) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06c098e-c958-46c5-bffe-d1f2299798c5")
+	)
+	(wire
+		(pts
 			(xy 209.55 80.01) (xy 209.55 90.17)
 		)
 		(stroke
@@ -1312,25 +1322,53 @@
 		)
 		(uuid "fe539580-64a8-4bb9-9a8e-d0b1a3178008")
 	)
-	(label "V_P_C_-15V"
-		(at 228.6 80.01 0)
+	(global_label "V_P_-16.5V"
+		(shape input)
+		(at 63.5 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "6adea13d-1001-42a5-b071-348a27e996a9")
+		(uuid "3d6dc869-0013-409d-9083-59517a7694a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.3267 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_-16.5V"
-		(at 63.5 73.66 0)
+	(global_label "V_P_C_-15V"
+		(shape input)
+		(at 237.49 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "7ef12a4f-f69b-4d76-8bc1-8c37db2eac9d")
+		(uuid "d50375be-3539-4dfa-9020-aac9ebb96707")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.0866 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1409,12 +1447,6 @@
 			(project "DAC11001"
 				(path "/6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -1500,12 +1532,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "R50")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1588,12 +1614,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "C45")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1668,12 +1688,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -1757,12 +1771,6 @@
 			(project "DAC11001"
 				(path "/6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -1881,12 +1889,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "U15")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1966,12 +1968,6 @@
 			(project "DAC11001"
 				(path "/6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2057,12 +2053,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "C44")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2145,17 +2135,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/2354dc51-baac-49c4-b0f2-6409abc4ef9d"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "6")
 		)
 	)
 )

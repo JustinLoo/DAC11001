@@ -768,15 +768,29 @@
 		)
 		(uuid "fcdb744e-2b8f-4875-902e-f8f3e8ce3a85")
 	)
-	(label "V_P_+12V"
-		(at 82.55 71.12 0)
+	(global_label "V_P_+12V"
+		(shape input)
+		(at 82.55 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "22cf0031-2d97-4357-93f8-4fa48c36174c")
+		(uuid "ed220489-5dc3-4314-89ea-9f1a3540198c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.191 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "V_LN_5"
 		(shape input)
@@ -1090,4 +1104,5 @@
 			(page "7")
 		)
 	)
+	(embedded_fonts no)
 )

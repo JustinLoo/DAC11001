@@ -1222,25 +1222,53 @@
 		)
 		(uuid "fa6d2c05-e7f2-4a9d-96da-436312081dcf")
 	)
-	(label "V_P_5+"
-		(at 243.84 78.74 0)
+	(global_label "V_P_+12V"
+		(shape input)
+		(at 52.07 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "8aa5c88d-519d-4c4d-bb54-2e306d369827")
+		(uuid "582bb8ac-8cdb-4faf-906b-5bbda870ef21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.711 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_+12V"
-		(at 52.07 76.2 0)
+	(global_label "V_P_5+"
+		(shape input)
+		(at 243.84 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8fde95e4-1ae7-463f-96ca-8e2b94446d7e")
+		(uuid "789e991c-e1af-41fd-a417-2f64da1326ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.9009 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "2026-06-29_19-42-44:LT3042EDD-PBF")
@@ -1349,12 +1377,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "U17")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1437,12 +1459,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "C49")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1517,12 +1533,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/7fba4707-d072-468a-a501-14a80bae184d"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -1609,12 +1619,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "C51")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1694,12 +1698,6 @@
 			(project "DAC11001"
 				(path "/7fba4707-d072-468a-a501-14a80bae184d"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -1785,12 +1783,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "R57")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1870,12 +1862,6 @@
 			(project "DAC11001"
 				(path "/7fba4707-d072-468a-a501-14a80bae184d"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -1961,12 +1947,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "R58")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2046,12 +2026,6 @@
 			(project "DAC11001"
 				(path "/7fba4707-d072-468a-a501-14a80bae184d"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/b4e2e048-73d5-47b9-a078-31dc77393363"
-					(reference "R55")
 					(unit 1)
 				)
 			)

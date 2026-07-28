@@ -858,35 +858,77 @@
 		)
 		(uuid "f5d53c63-eac5-4942-8157-e07118a9b364")
 	)
-	(label "V_P_C_+15V"
-		(at 144.78 73.66 0)
+	(global_label "V_P_C_-15V"
+		(shape input)
+		(at 95.25 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "450798e7-c6f8-4ad3-b7a0-64e2551b072a")
+		(uuid "04a31179-bfe7-4df0-87e3-3dfb08f808d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.6534 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_-15V"
-		(at 95.25 124.46 0)
+	(global_label "V_P_C_+15V"
+		(shape input)
+		(at 144.78 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "9c9dbad5-c348-4b82-a0a5-32f55ecf81dc")
+		(uuid "3dd3fed9-99cb-46ca-9d6f-a1b45c979601")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.1834 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_FINAL_OUT"
+	(global_label "V_FINAL_OUT"
+		(shape input)
 		(at 207.01 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "b8006c6b-d5ef-42ee-ab67-e39453d3a7b1")
+		(uuid "8d9676b8-c723-46a0-a9a9-9e9d74788c43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.7882 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "V_RCM"
 		(shape input)

@@ -1328,6 +1328,12 @@
 		)
 	)
 	(junction
+		(at 190.5 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4496e975-e3c4-4062-bb36-feb8d34dd6b8")
+	)
+	(junction
 		(at 163.83 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1338,12 +1344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdfc3fc4-45b6-4965-be6a-df1c955b17e4")
-	)
-	(junction
-		(at 190.5 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d47931d1-5d59-4c16-9c74-a4abf4e7dbfc")
 	)
 	(junction
 		(at 186.69 143.51)
@@ -1681,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 26.67) (xy 190.5 26.67)
+			(xy 201.93 26.67) (xy 190.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2099,35 +2099,77 @@
 		)
 		(uuid "6f3cb444-07ab-40d8-871b-12b68e413fd1")
 	)
-	(label "V_P_C_+15V"
-		(at 93.98 27.94 0)
+	(global_label "V_P_C_-15V"
+		(shape input)
+		(at 93.98 22.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "7f194859-9d5e-499f-8ca8-f81eaa3bf684")
+		(uuid "117be0f3-347e-4141-b028-74c141602df7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.3834 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_5+"
-		(at 196.85 26.67 0)
+	(global_label "V_P_C_+15V"
+		(shape input)
+		(at 93.98 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "d686635b-cfc5-49b1-af11-e544b09da524")
+		(uuid "8c94973d-883b-49fc-8951-431988707108")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.3834 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "V_P_C_-15V"
-		(at 93.98 22.86 0)
+	(global_label "V_P_5+"
+		(shape input)
+		(at 201.93 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "ebcee66e-7837-4f1c-a85c-7015cde0cf11")
+		(uuid "e33c11fa-2fb9-472d-9e7b-26e2938fca0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.9909 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDA")
@@ -3717,98 +3759,6 @@
 		)
 	)
 	(sheet
-		(at 22.86 157.48)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2354dc51-baac-49c4-b0f2-6409abc4ef9d")
-		(property "Sheetname" "LT3094"
-			(at 22.86 156.7684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lt3094.kicad_sch"
-			(at 22.86 161.8746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 22.86 167.64)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "36834370-2082-4f70-b859-136ec9471013")
-		(property "Sheetname" "LT3042"
-			(at 22.86 166.9284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lt3042.kicad_sch"
-			(at 22.86 172.0346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 71.12 60.96)
 		(size 27.94 29.21)
 		(exclude_from_sim no)
@@ -3966,144 +3916,6 @@
 			(project "DAC11001"
 				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 157.48)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "b0c6e875-56fd-4a79-9737-deb22c9bb7f9")
-		(property "Sheetname" "LT3042v2"
-			(at 53.34 156.7684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lt3042v2.kicad_sch"
-			(at 53.34 161.8746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 55.88 171.45)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "b4e2e048-73d5-47b9-a078-31dc77393363")
-		(property "Sheetname" "LT3042v3"
-			(at 55.88 170.7384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lt3042v3.kicad_sch"
-			(at 55.88 175.8446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 22.86 177.8)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "d3048a48-51ba-4481-ad89-7603f55b3b15")
-		(property "Sheetname" "LT3999"
-			(at 22.86 177.0884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lt3999.kicad_sch"
-			(at 22.86 182.1946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb"
-					(page "7")
 				)
 			)
 		)

@@ -787,12 +787,6 @@
 		(uuid "5699edc2-490f-424e-9760-ff99036309ad")
 	)
 	(junction
-		(at 223.52 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bc5339d-9600-45d5-8198-446ef6008729")
-	)
-	(junction
 		(at 189.23 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -827,6 +821,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9710d11-da68-4338-bdd7-32ec1272a4f1")
+	)
+	(junction
+		(at 223.52 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6dd5c13-416c-4562-960e-bd0d1b9bf957")
 	)
 	(junction
 		(at 180.34 104.14)
@@ -1144,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 78.74) (xy 236.22 78.74)
+			(xy 223.52 78.74) (xy 255.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1222,25 +1222,53 @@
 		)
 		(uuid "ff007ab1-4697-43af-bb07-00fed1b230a4")
 	)
-	(label "V_P_C_+15V"
-		(at 236.22 78.74 0)
+	(global_label "V_P_C_+15V"
+		(shape input)
+		(at 255.27 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "4b2afb96-91f8-4233-ab66-dfb322c03774")
+		(uuid "d8e0f7bd-4dd6-49ad-96b0-a7e713771359")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.8666 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(label "V_P_+16.5V"
-		(at 71.12 76.2 0)
+	(global_label "V_P_+16.5V"
+		(shape input)
+		(at 71.12 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "94552c20-c7d8-4d99-8082-b8e80246cc7a")
+		(uuid "ea01842e-20ae-4bd3-87e0-487f50ea81ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.9467 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "2026-06-29_19-42-44:LT3042EDD-PBF")
@@ -1349,12 +1377,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "U10")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1434,12 +1456,6 @@
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1525,12 +1541,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "C42")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1605,12 +1615,6 @@
 		(instances
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -1697,12 +1701,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "R45")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1782,12 +1780,6 @@
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1873,12 +1865,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "C40")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1958,12 +1944,6 @@
 			(project "DAC11001"
 				(path "/924ca917-6b99-40f8-9087-94374e4e1bff"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2049,17 +2029,6 @@
 					(unit 1)
 				)
 			)
-			(project "DAC11001"
-				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/36834370-2082-4f70-b859-136ec9471013"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "2")
 		)
 	)
 )
