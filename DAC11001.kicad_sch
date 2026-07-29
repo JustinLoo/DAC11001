@@ -3921,7 +3921,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 148.59)
+		(at 25.4 142.24)
 		(size 43.18 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3937,7 +3937,7 @@
 		)
 		(uuid "a8da5177-43c4-4665-b682-d49b9fc3d5b2")
 		(property "Sheetname" "LT3999"
-			(at 35.56 147.8784 0)
+			(at 25.4 141.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3948,7 +3948,7 @@
 			)
 		)
 		(property "Sheetfile" "lt3999.kicad_sch"
-			(at 35.56 165.6846 0)
+			(at 25.4 159.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
