@@ -1282,7 +1282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bfa89b8-90ea-49ae-a3de-64d5f430eb93")
-		(property "Reference" "R32"
+		(property "Reference" "R52"
 			(at 171.45 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1345,8 +1345,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -1364,7 +1376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48800345-aa6b-41d5-a137-8dbffa679a97")
-		(property "Reference" "C17"
+		(property "Reference" "C48"
 			(at 74.93 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1427,8 +1439,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -1446,7 +1470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c8ed8ce-febb-40d2-927e-9aedac5ef217")
-		(property "Reference" "R23"
+		(property "Reference" "R51"
 			(at 100.33 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1509,8 +1533,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -1528,7 +1564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "519bbf01-5e77-43ab-be61-03372d0b9315")
-		(property "Reference" "U8"
+		(property "Reference" "U16"
 			(at 128.27 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1618,8 +1654,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -1637,7 +1685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f04fb3-44bf-4861-adeb-2d43240cc313")
-		(property "Reference" "R34"
+		(property "Reference" "R54"
 			(at 195.58 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,8 +1748,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -1719,7 +1779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9761f352-da68-4358-87e6-b1af09d2c302")
-		(property "Reference" "C38"
+		(property "Reference" "C50"
 			(at 212.09 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1782,8 +1842,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -1801,7 +1873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a13314c-33d3-4d12-b63d-c4eb943927bf")
-		(property "Reference" "C18"
+		(property "Reference" "C49"
 			(at 163.83 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1864,8 +1936,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -1883,7 +1967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a299f7cc-f839-415c-ada1-4f8024b9de15")
-		(property "Reference" "R33"
+		(property "Reference" "R53"
 			(at 195.58 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,8 +2030,20 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -2024,9 +2120,77 @@
 		)
 		(instances
 			(project "DAC11001"
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project "DAC11001"
 				(path "/abdba638-bc95-4869-83fe-bbcdf8030f26"
 					(reference "#PWR037")
 					(unit 1)
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 158.75)
+		(size 31.75 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b2d57cbb-ac61-46e7-a525-a854f0e63ea1")
+		(property "Sheetname" "LT3042v3"
+			(at 64.77 158.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lt3042v3.kicad_sch"
+			(at 64.77 170.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project ""
+				(path "/688e2b68-3871-489b-b27a-c18d3c11fcf6/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(page "5")
+				)
+			)
+			(project ""
+				(path "/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(page "")
+				)
+			)
+			(project "DAC11001"
+				(path "/d47dddaa-1169-4924-a666-b75ea4bc2aeb/a8da5177-43c4-4665-b682-d49b9fc3d5b2/9763c458-ad2a-49f6-b267-7cfd74c6fed3"
+					(page "6")
 				)
 			)
 		)

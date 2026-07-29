@@ -646,40 +646,35 @@
         "filename": "DAC11001.kicad_sch",
         "name": "DAC11001",
         "uuid": "d47dddaa-1169-4924-a666-b75ea4bc2aeb"
-      },
-      {
-        "filename": "lt3042v2.kicad_sch",
-        "name": "LT3042v2",
-        "uuid": "abdba638-bc95-4869-83fe-bbcdf8030f26"
-      },
-      {
-        "filename": "lt3999.kicad_sch",
-        "name": "LT3999",
-        "uuid": "688e2b68-3871-489b-b27a-c18d3c11fcf6"
-      },
-      {
-        "filename": "lt3042.kicad_sch",
-        "name": "LT3042",
-        "uuid": "924ca917-6b99-40f8-9087-94374e4e1bff"
-      },
-      {
-        "filename": "lt3094.kicad_sch",
-        "name": "LT3094",
-        "uuid": "6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b"
-      },
-      {
-        "filename": "lt3042v3.kicad_sch",
-        "name": "LT3042v3",
-        "uuid": "7fba4707-d072-468a-a501-14a80bae184d"
       }
     ],
-    "used_designators": "#PWR39,C14-16,C35-37,C39-51,D1,D4,D9-10,R19-22,R35-58,U1,U9-10,U15-17,L1-2,T1",
+    "used_designators": "C14-16,C37,C40-57,R19-22,R39-66,U1,U6,U10,U15-17,U19,T1,L1-2,D1,D4,D9-10",
     "variants": []
   },
   "sheets": [
     [
       "d47dddaa-1169-4924-a666-b75ea4bc2aeb",
       "DAC11001"
+    ],
+    [
+      "76a653ef-2b42-4099-aee7-a371014dc2e5",
+      "LT3094"
+    ],
+    [
+      "1cdb1a95-8826-45a6-bddc-c4b97ae2a13e",
+      "LT3042"
+    ],
+    [
+      "9763c458-ad2a-49f6-b267-7cfd74c6fed3",
+      "LT3042v2"
+    ],
+    [
+      "a8da5177-43c4-4665-b682-d49b9fc3d5b2",
+      "LT3999"
+    ],
+    [
+      "b2d57cbb-ac61-46e7-a525-a854f0e63ea1",
+      "LT3042v3"
     ],
     [
       "7933b1d9-37b7-42e4-861c-0c3dd9e959de",
@@ -692,26 +687,6 @@
     [
       "02311885-f1d6-4880-a7b8-d43c51b41ace",
       "ISO7761"
-    ],
-    [
-      "6e579ff3-6d6f-426b-8cf1-a1f17b0bdc3b",
-      "LT3094"
-    ],
-    [
-      "7fba4707-d072-468a-a501-14a80bae184d",
-      "LT3042v3"
-    ],
-    [
-      "688e2b68-3871-489b-b27a-c18d3c11fcf6",
-      "LT3999"
-    ],
-    [
-      "abdba638-bc95-4869-83fe-bbcdf8030f26",
-      "LT3042v2"
-    ],
-    [
-      "924ca917-6b99-40f8-9087-94374e4e1bff",
-      "LT3042"
     ],
     [
       "3050d66d-9f3f-4cdb-9ee2-e7609f8feb6d",
