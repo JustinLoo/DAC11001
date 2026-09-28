@@ -1,0 +1,99 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d3cebd96-4390-46f2-9e02-a62a4b3bed4b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 68.58 48.26)
+		(size 26.035 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "61df4baa-92b0-4b40-aa16-cc21249005c9")
+		(property "Sheetname" "powerin"
+			(at 68.58 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerin.kicad_sch"
+			(at 68.58 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC3V3in" input
+			(at 68.58 58.42 180)
+			(uuid "88a9ac56-ecb9-4dd1-b7c2-63553fcd7f59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC3V3out" input
+			(at 94.615 58.42 0)
+			(uuid "93bd6113-b12f-45a3-b65e-0f1c38e61310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC12Vin" input
+			(at 68.58 53.34 180)
+			(uuid "ff94e26e-c629-4c38-b435-1c1886d6dd20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC12Vout" input
+			(at 94.615 53.34 0)
+			(uuid "cb7a104e-0745-4093-b27f-19f49325aaa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DAC11001"
+				(path "/fc9553ea-26d4-44d7-be33-31b59d4f87ed"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,1 @@
+the ape4ad5791 is the finished design by GH, the DAC11001 is my design that im basing off of the ape4ad5791. the goal is to make ape4ad5791 but with a different main IC being the DAC11001. both layout connections should be the same. same io and interface.

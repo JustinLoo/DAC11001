@@ -1,0 +1,175 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3cb46ab9-4d99-49e1-bd7b-2c8e949fd07e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f1de16-c67c-40b8-994b-0a7d7ed9e4ad")
+	)
+	(sheet
+		(at 47.625 83.82)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "35d82c71-90b0-4674-9bbe-992727249f90")
+		(property "Sheetname" "OPA828_OUT"
+			(at 47.625 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OPA828_OUT.kicad_sch"
+			(at 47.625 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_FINAL_OUT" input
+			(at 73.025 92.71 0)
+			(uuid "df609572-e7d3-4162-a526-6f8f89a46734")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DAC11001"
+				(path "/4e9b06b0-9323-4d79-8956-6b088b3987ce"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 81.915)
+		(size 31.115 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c2921cf6-4acb-41b7-9fd5-b1702b8ad550")
+		(property "Sheetname" "howland"
+			(at 105.41 81.2034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "howland.kicad_sch"
+			(at 105.41 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AGND" input
+			(at 105.41 86.995 180)
+			(uuid "c5539b2a-549f-4a1a-a474-0db68ac89cd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Iout" output
+			(at 136.525 86.995 0)
+			(uuid "fdeb2ab5-a069-4b3f-b425-26ae54740ec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 105.41 100.33 180)
+			(uuid "9609c0c5-1342-4ec1-a5c8-654cd9af6f3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 105.41 92.71 180)
+			(uuid "e890e21e-fee1-4367-a268-11128c325b11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 105.41 96.52 180)
+			(uuid "adf16dcc-032a-4ec8-8ce1-80ec9d5c5f9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DAC11001"
+				(path "/4e9b06b0-9323-4d79-8956-6b088b3987ce"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "23")
+		)
+	)
+)
