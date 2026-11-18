@@ -3058,7 +3058,7 @@
 		)
 		(uuid "503a515a-e5e4-4a19-ba34-52c64b9e0fc2")
 	)
-	(hierarchical_label "V_P_C_+16.5V"
+	(hierarchical_label "V_P_C_+15.4V"
 		(shape input)
 		(at 226.06 48.26 0)
 		(effects
@@ -4706,7 +4706,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "1"
 			(at 212.09 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)

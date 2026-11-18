@@ -1145,7 +1145,7 @@
 		)
 		(uuid "d5fcc28d-b837-4f99-bed1-f0fa8fbe229f")
 	)
-	(hierarchical_label "V_P_C_+16.5V"
+	(hierarchical_label "V_P_C_+15.4V"
 		(shape output)
 		(at 255.27 78.74 0)
 		(effects
@@ -1316,7 +1316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "165k 0.1%"
+		(property "Value" "154k 0.1%"
 			(at 186.69 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1360,7 +1360,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0402BRD07165KL"
+		(property "MPN" "RT0402BRD07154KL"
 			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)

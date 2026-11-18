@@ -1045,7 +1045,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "U7"
 				(at 25.4 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1065,7 +1065,7 @@
 					)
 				)
 			)
-			(property "Footprint" "custom_lib:MSOP-8_MS_LIT"
+			(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1316,6 +1316,26 @@
 					)
 				)
 			)
+			(symbol "LT5400AIMS8E-1-PBF_1_1"
+				(pin unspecified line
+					(at 5.08 -10.16 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 	)
@@ -1390,6 +1410,16 @@
 			(type default)
 		)
 		(uuid "178f84fe-9e50-4012-ac95-96375cda0498")
+	)
+	(wire
+		(pts
+			(xy 44.45 142.24) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234262a1-d760-4907-a03c-538b7a879bc1")
 	)
 	(wire
 		(pts
@@ -1490,6 +1520,16 @@
 			(type default)
 		)
 		(uuid "768cb865-d25f-4cf0-a8cf-1f33217bd9f5")
+	)
+	(wire
+		(pts
+			(xy 44.45 149.86) (xy 44.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaaccf6-148d-4e55-b116-60bcd1a7b173")
 	)
 	(wire
 		(pts
@@ -1967,6 +2007,17 @@
 		)
 		(uuid "a53f2ee3-36e4-4e2b-86e1-f45a0c5fc816")
 	)
+	(hierarchical_label "ISO_AGND"
+		(shape input)
+		(at 44.45 149.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b38862c7-6022-4e47-891f-2644e4a5d40b")
+	)
 	(hierarchical_label "Vref5"
 		(shape input)
 		(at 82.55 76.2 180)
@@ -2356,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_lib:MSOP-8_MS_LIT"
+		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
 			(at 45.72 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2414,6 +2465,9 @@
 		)
 		(pin "4"
 			(uuid "0bac54ab-be1c-407a-818c-e738a12f6324")
+		)
+		(pin "9"
+			(uuid "fa3f7cdb-6d61-4de4-9a3d-23f048a60788")
 		)
 		(instances
 			(project "DAC11001"

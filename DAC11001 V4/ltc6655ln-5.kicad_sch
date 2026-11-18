@@ -837,7 +837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 25V X7R"
 			(at 213.36 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -871,6 +871,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 209.55 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL31B106KAHNNNE"
 			(at 209.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1009,7 +1031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF C0G 25V"
 			(at 193.04 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1020,7 +1042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 190.1952 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1043,6 +1065,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3216C0G1E105J160AC"
 			(at 189.23 91.44 0)
 			(hide yes)
 			(show_name no)

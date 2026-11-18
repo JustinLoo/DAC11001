@@ -3190,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
+		(property "Value" "DFLS130-7"
 			(at 71.12 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,7 +3200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_lib:DIO_DFLS130L-7"
+		(property "Footprint" "custom_lib:DFLS130-7_DIO"
 			(at 71.12 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3509,7 +3509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "custom_lib:DO-214AASMB_J-BEND_LTF"
 			(at 93.98 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -4250,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "custom_lib:FUS_MINISMDC110F_TYCO_TYC"
 			(at 64.135 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4437,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+		(property "Footprint" "custom_lib:CAPPM7343X310N"
 			(at 110.8202 73.025 0)
 			(hide yes)
 			(show_name no)

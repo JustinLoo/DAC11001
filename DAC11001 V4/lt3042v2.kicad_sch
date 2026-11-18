@@ -688,6 +688,12 @@
 		(uuid "935e2654-5abf-493b-95ea-e037427bef05")
 	)
 	(junction
+		(at 208.28 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ade9154-5c99-4720-b7d6-32274b794519")
+	)
+	(junction
 		(at 193.04 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -698,6 +704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce54c98a-5702-4bd5-8889-07dcf97f6c8c")
+	)
+	(junction
+		(at 229.87 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d29fe408-55a9-4f13-83cc-3677cfcd74ae")
 	)
 	(junction
 		(at 173.99 113.03)
@@ -885,6 +897,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 113.03) (xy 229.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512c69e9-929d-46d4-9057-ffeaa8f9bfc4")
+	)
+	(wire
+		(pts
 			(xy 90.17 82.55) (xy 90.17 80.01)
 		)
 		(stroke
@@ -892,6 +914,16 @@
 			(type default)
 		)
 		(uuid "5291d8ff-d9c7-4039-ae29-e50d1364a900")
+	)
+	(wire
+		(pts
+			(xy 229.87 80.01) (xy 229.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581620f3-f066-44a9-89b2-fc67cf72ffca")
 	)
 	(wire
 		(pts
@@ -1015,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 80.01) (xy 236.22 80.01)
+			(xy 208.28 80.01) (xy 229.87 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1105,6 +1137,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 113.03) (xy 229.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e3366f-bcc5-46c7-8677-bda9c9531fb8")
+	)
+	(wire
+		(pts
 			(xy 97.79 106.68) (xy 97.79 113.03)
 		)
 		(stroke
@@ -1112,6 +1154,16 @@
 			(type default)
 		)
 		(uuid "f3c51207-44b8-4e32-9aae-5ac0769390db")
+	)
+	(wire
+		(pts
+			(xy 229.87 80.01) (xy 236.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab003d4-47ff-40d3-8400-630ef08f9b61")
 	)
 	(wire
 		(pts
@@ -1687,6 +1739,114 @@
 				)
 				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/745c464d-9837-4739-8302-e6fead523d5c"
 					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f325b66-ae25-4366-8412-195b9b5db2ee")
+		(property "Reference" "C136"
+			(at 233.68 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X7R"
+			(at 233.68 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 230.8352 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LT3042 input cap, 10uF 25V X7R 0805 (was 1210; 0805 to fit host-ch2 3 mm isolation). U23/U24 output cap C128/C77-side 10uF nearby."
+			(at 229.87 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C2012X7R1E106K125AB"
+			(at 229.87 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 229.87 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2840849b-26f8-477f-9d8e-b5facc48a3fe")
+		)
+		(pin "2"
+			(uuid "e213802d-ad67-4f9b-a14d-d710c090dc1d")
+		)
+		(instances
+			(project "DAC11001"
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cac995fc-fb44-4f5b-9531-9b1364993bd0/745c464d-9837-4739-8302-e6fead523d5c"
+					(reference "C154")
+					(unit 1)
+				)
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/745c464d-9837-4739-8302-e6fead523d5c"
+					(reference "C136")
 					(unit 1)
 				)
 			)

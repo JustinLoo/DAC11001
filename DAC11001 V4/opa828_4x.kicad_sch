@@ -1323,7 +1323,7 @@
 		)
 		(uuid "4c853b00-cde9-453c-b0b2-cbaef47686bc")
 	)
-	(hierarchical_label "V_P_C_+16.5V"
+	(hierarchical_label "V_P_C_+15.4V"
 		(shape input)
 		(at 152.4 35.56 180)
 		(effects
@@ -1367,7 +1367,7 @@
 		)
 		(uuid "877ef27a-4fed-401f-b66e-9671df95aa6c")
 	)
-	(hierarchical_label "V_P_C_+16.5V"
+	(hierarchical_label "V_P_C_+15.4V"
 		(shape input)
 		(at 147.32 107.95 180)
 		(effects
@@ -1670,7 +1670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF C0G 25V"
 			(at 64.77 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1681,7 +1681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 61.9252 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -1704,6 +1704,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 60.96 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3216C0G1E105J160AC"
 			(at 60.96 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -2776,7 +2798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF C0G 25V"
 			(at 62.23 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +2809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 59.3852 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2810,6 +2832,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 58.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3216C0G1E105J160AC"
 			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)

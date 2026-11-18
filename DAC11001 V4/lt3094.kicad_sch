@@ -658,6 +658,12 @@
 		(uuid "65d07ca0-642b-43aa-a881-a1ea2b8cd527")
 	)
 	(junction
+		(at 80.01 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df5a5f9-2bb6-41eb-bd04-8e1a0d90aed5")
+	)
+	(junction
 		(at 80.01 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -712,6 +718,12 @@
 		(uuid "dc107c43-b1bf-41c0-a4d8-b9600a0adba2")
 	)
 	(junction
+		(at 69.85 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ea1163-c18b-4fa7-ab72-6f23de9657e4")
+	)
+	(junction
 		(at 106.68 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -747,13 +759,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 71.12) (xy 237.49 71.12)
+			(xy 209.55 71.12) (xy 229.87 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0abc452b-8123-411e-a018-0c26a7cd4857")
+	)
+	(wire
+		(pts
+			(xy 69.85 85.09) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2c0424-cd13-439c-9341-547832b2cadb")
 	)
 	(wire
 		(pts
@@ -967,6 +989,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 76.2) (xy 69.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73881867-0003-4368-b0b6-3dd632ca1185")
+	)
+	(wire
+		(pts
 			(xy 147.32 97.79) (xy 147.32 87.63)
 		)
 		(stroke
@@ -994,6 +1026,16 @@
 			(type default)
 		)
 		(uuid "873764a6-52a2-47a5-a729-d2180ee49d77")
+	)
+	(wire
+		(pts
+			(xy 69.85 106.68) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886050a8-3419-4901-a898-6eec12f892d8")
 	)
 	(wire
 		(pts
@@ -1257,6 +1299,58 @@
 			(justify right)
 		)
 		(uuid "de6c3449-95d3-4247-bbd4-cb4a2347df53")
+	)
+	(junction
+		(at 229.87 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c30d58c-4878-47e4-9b1b-c3013a4b3010")
+	)
+	(junction
+		(at 209.55 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86eb0edc-ca45-4e99-bf93-81b695b482e1")
+	)
+	(wire
+		(pts
+			(xy 229.87 71.12) (xy 237.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27803e5b-8d50-4ba8-a146-ce59e405f070")
+	)
+	(wire
+		(pts
+			(xy 229.87 71.12) (xy 229.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6e9f98-5c3d-432b-8299-8d0864657914")
+	)
+	(wire
+		(pts
+			(xy 229.87 97.79) (xy 229.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc8878e-56e6-43dd-8c4f-60a84d7f0953")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 229.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd5dfed-469d-4ade-ba15-69db4fffac14")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1592,7 +1686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 50V X7R"
+		(property "Value" "22uF 35V X7R"
 			(at 213.36 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1636,7 +1730,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM32ER71H106KA12L"
+		(property "MPN" "GRM32ER7YA226MA12L"
 			(at 209.55 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1672,6 +1766,113 @@
 				)
 				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
 					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a880290-95d6-497f-a254-ea4b2920dd78")
+		(property "Reference" "C65"
+			(at 67.31 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF 50V X7R"
+			(at 67.31 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 70.8152 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM32ER71H106KA12L"
+			(at 69.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 69.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5ab6447-4d93-4a55-9e17-bf9500d9b2ec")
+		)
+		(pin "2"
+			(uuid "b3deaea9-f852-494a-a175-adfe24823625")
+		)
+		(instances
+			(project "DAC11001"
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cac995fc-fb44-4f5b-9531-9b1364993bd0/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
+					(reference "C137")
+					(unit 1)
+				)
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -2071,6 +2272,114 @@
 				)
 				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
 					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c64e03a-6fb5-40a4-9dd3-e011e6f3664c")
+		(property "Reference" "C155"
+			(at 233.68 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X7R"
+			(at 233.68 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 230.8352 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LT3094 output cap at U28/U49 OUT pins 11-12 (low-ESL path, B3). Bulk is C74/C131."
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C2012X7R1E106K125AB"
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1228e49-01aa-445c-90db-46813eabd13a")
+		)
+		(pin "2"
+			(uuid "bb091ae9-2ebd-4c70-b228-f741ac9b716c")
+		)
+		(instances
+			(project "DAC11001"
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cac995fc-fb44-4f5b-9531-9b1364993bd0/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
+					(reference "C156")
+					(unit 1)
+				)
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
+					(reference "C155")
 					(unit 1)
 				)
 			)

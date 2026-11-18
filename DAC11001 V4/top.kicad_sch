@@ -979,7 +979,7 @@
 		)
 		(uuid "2c3fe087-f8fa-4c91-b11c-1552a89010ae")
 	)
-	(label "V_P_C_+16.5V"
+	(label "V_P_C_+15.4V"
 		(at 132.08 60.96 180)
 		(effects
 			(font
@@ -1029,7 +1029,7 @@
 		)
 		(uuid "756e3792-1133-4074-8ab9-ed7de5dc1c1c")
 	)
-	(label "V_P_C_+16.5V"
+	(label "V_P_C_+15.4V"
 		(at 118.11 109.22 180)
 		(effects
 			(font
@@ -1049,7 +1049,7 @@
 		)
 		(uuid "88640975-e252-4fcc-86fd-4f066f2fd196")
 	)
-	(label "V_P_C_+16.5V"
+	(label "V_P_C_+15.4V"
 		(at 256.54 146.05 0)
 		(effects
 			(font
@@ -1059,7 +1059,7 @@
 		)
 		(uuid "8fc29ade-6f74-4c3d-8ae7-dfa1082355eb")
 	)
-	(label "V_P_C_+16.5V"
+	(label "V_P_C_+15.4V"
 		(at 163.83 62.23 180)
 		(effects
 			(font
@@ -1169,7 +1169,7 @@
 		)
 		(uuid "f2e9883c-aced-49e8-be33-e317f3594608")
 	)
-	(label "V_P_C_+16.5V"
+	(label "V_P_C_+15.4V"
 		(at 207.01 132.08 180)
 		(effects
 			(font
@@ -1545,7 +1545,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_P_C_+16.5V" input
+		(pin "V_P_C_+15.4V" input
 			(at 210.82 132.08 180)
 			(uuid "8568568e-f3e6-470a-9d45-a3caac170ec3")
 			(effects
@@ -1903,7 +1903,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_P_C_+16.5V" output
+		(pin "V_P_C_+15.4V" output
 			(at 91.44 107.95 0)
 			(uuid "bd311ec9-72d2-41e3-ac84-3c3c412dc514")
 			(effects
@@ -2280,7 +2280,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_P_C_+16.5V" input
+		(pin "V_P_C_+15.4V" input
 			(at 166.37 62.23 180)
 			(uuid "016497b5-c95f-4bb3-a0f8-a536dc08c6e2")
 			(effects
@@ -2597,7 +2597,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_P_C_+16.5V" input
+		(pin "V_P_C_+15.4V" input
 			(at 250.19 138.43 270)
 			(uuid "643e4258-eaea-4f4d-b3cc-2cb1d7115a0f")
 			(effects

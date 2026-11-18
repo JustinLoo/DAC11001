@@ -1179,7 +1179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 50V X7R"
+		(property "Value" "10uF 25V X7R"
 			(at 82.55 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1190,7 +1190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 79.7052 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1212,7 +1212,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "LT3042 input cap, 10uF 25V X7R 0805 (was 1210; 0805 to fit host-ch2 3 mm isolation). U23/U24 output cap C128/C77-side 10uF nearby."
 			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1223,7 +1223,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM32ER71H106KA12L"
+		(property "MPN" "C2012X7R1E106K125AB"
 			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1234,7 +1234,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TDK"
 			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
