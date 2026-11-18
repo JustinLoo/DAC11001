@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "custom_lib") (type "KiCad") (uri "/home/justin/Documents/GitHub/DAC11001_V2/libraries/custom_lib.pretty") (options "") (descr ""))
+)
