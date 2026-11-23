@@ -12,7 +12,7 @@
 		(4 "In1.Cu" power "In1_GND")
 		(6 "In2.Cu" power "In2_+15.4V_12V")
 		(8 "In3.Cu" mixed "In3_-16.5V_SIG")
-		(10 "In4.Cu" power "In4_GND_3.3V")
+		(10 "In4.Cu" power "In4_GND")
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
