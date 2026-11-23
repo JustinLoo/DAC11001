@@ -1499,7 +1499,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 110.49 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1584,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100pF 50V C0G"
 			(at 173.99 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1947,7 +1947,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 160.02 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100pF 50V C0G"
 			(at 176.53 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,7 +2117,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 154.94 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,7 +2497,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 107.95 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)

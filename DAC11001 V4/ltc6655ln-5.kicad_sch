@@ -945,7 +945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V X7R"
 			(at 137.16 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1267,7 +1267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 35V X5R"
 			(at 130.81 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)

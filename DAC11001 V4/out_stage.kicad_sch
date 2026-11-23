@@ -1537,7 +1537,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 109.22 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1621,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100pF 50V C0G"
 			(at 120.65 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2031,7 +2031,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 158.75 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)

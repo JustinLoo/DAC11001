@@ -4336,7 +4336,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF 50V C0G"
 			(at 77.47 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,7 +4977,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF 50V C0G"
 			(at 124.46 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -4091,7 +4091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V X7R"
 			(at 157.48 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V X7R"
 			(at 274.955 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6395,7 +6395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V X7R"
 			(at 274.955 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6947,7 +6947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V X7R"
 			(at 46.99 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)

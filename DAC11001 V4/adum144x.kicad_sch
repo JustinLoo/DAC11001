@@ -5640,7 +5640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 73.66 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 114.3 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,7 +6121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 88.9 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6495,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 129.54 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)

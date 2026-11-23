@@ -1983,7 +1983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF 50V X5R"
 			(at 163.83 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)

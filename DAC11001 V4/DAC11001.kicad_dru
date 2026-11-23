@@ -20,6 +20,12 @@
 	(condition "(A.NetName == '/ctrlpins/*' || A.NetName == '/top_*/adum/VI*' || A.NetName == '/I2C_*' || A.NetName == 'GND' || A.NetName == '/powerin/DC12Vout' || A.NetName == '/DC3V3' || A.NetName == '/HSO*' || A.NetName == '/HSI*' || A.NetName == 'Net-(U2-*' || A.NetName == 'Net-(U21-*') && (B.NetName == '/ctrlpins/*' || B.NetName == '/top_*/adum/VI*' || B.NetName == '/I2C_*' || B.NetName == 'GND' || B.NetName == '/powerin/DC12Vout' || B.NetName == '/DC3V3' || B.NetName == '/HSO*' || B.NetName == '/HSI*' || B.NetName == 'Net-(U2-*' || B.NetName == 'Net-(U21-*')")
 	(constraint clearance (min 0.15mm)))
 
+# Exception: exLDAC via/track next to the GND via near (63.4, -16.4). JLCPCB multilayer min is 0.09mm.
+# Only the GND *via* is affected; the GND zone keeps the 0.15mm rule above.
+(rule "exLDAC to GND via 0.10mm (JLCPCB OK)"
+	(condition "(A.NetName == '/ctrlpins/exLDAC' && B.NetName == 'GND' && B.Type == 'Via') || (B.NetName == '/ctrlpins/exLDAC' && A.NetName == 'GND' && A.Type == 'Via')")
+	(constraint clearance (min 0.10mm)))
+
 (rule "APE host strip signal track width 0.152mm"
 	(condition "A.Type == 'Track' && A.NetName != '/ctrlpins/VDD' && (A.NetName == '/ctrlpins/*' || A.NetName == '/top_*/adum/VI*' || A.NetName == '/I2C_*' || A.NetName == 'Net-(U2-*' || A.NetName == 'Net-(U21-*')")
 	(constraint track_width (min 0.15mm) (opt 0.152mm)))

@@ -3887,7 +3887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 168.91 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,7 +3973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V X5R"
 			(at 170.18 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +4059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 50V X7R"
 			(at 185.42 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 35V X5R"
 			(at 171.45 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4425,7 +4425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF 50V X7R"
 			(at 143.51 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4621,7 +4621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V X5R"
 			(at 158.75 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4875,7 +4875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 16V X5R"
 			(at 182.88 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4961,7 +4961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 50V X7R"
 			(at 182.88 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5129,7 +5129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 35V X5R"
 			(at 172.72 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)

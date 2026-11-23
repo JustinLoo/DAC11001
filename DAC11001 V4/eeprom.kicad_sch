@@ -848,7 +848,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V X7R"
 			(at 120.65 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)

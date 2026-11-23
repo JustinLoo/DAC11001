@@ -2312,7 +2312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF 50 V50V X7R"
+		(property "Value" "0.1uF 50V X7R"
 			(at 127 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2630,7 +2630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF 50 V50V X7R"
+		(property "Value" "0.1uF 50V X7R"
 			(at 137.16 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)

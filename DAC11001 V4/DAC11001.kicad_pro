@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -573,8 +570,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -787,7 +784,7 @@
         "uuid": "56e1ebc9-5dda-4e5b-968a-f29b6556ef01"
       }
     ],
-    "used_designators": "#FLG14-20,#PWR1-28,#PWR33-39,#PWR41-45,C1-56,C61-94,C105-143,C154-155,CR1-9,D1-21,F1-2,J1-2,J4-7,L1-12,NT2,R1-37,R43-47,R59-65,R68-138,R155-178,T1-2,U1-16,U18-35,U45-54",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
