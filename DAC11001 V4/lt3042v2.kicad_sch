@@ -1588,6 +1588,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:311-10KJRCT-ND"
+			(at 193.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c64f822-df47-452a-a19d-5b66ee3baaf8")
 		)
@@ -1664,6 +1675,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 97.79 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:LT3042IDD#TRPBFCT-ND"
 			(at 97.79 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2017,6 +2039,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:490-10751-1-ND"
 			(at 160.02 101.6 0)
 			(hide yes)
 			(show_name no)

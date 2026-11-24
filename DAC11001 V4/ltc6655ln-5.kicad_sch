@@ -989,6 +989,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-10700-1-ND"
+			(at 133.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8207e2f1-b9ab-4d57-a2e4-b8086cbc1c03")
 		)
@@ -1183,6 +1194,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:505-LTC6655LNBHMS8-5#PBF-ND"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MPN" "LTC6655LNBHMS8-5#PBF"
 			(at 139.7 76.2 0)
 			(hide yes)
@@ -1301,6 +1323,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:490-12646-1-ND"
 			(at 127 80.01 0)
 			(hide yes)
 			(show_name no)

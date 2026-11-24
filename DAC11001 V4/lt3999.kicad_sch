@@ -5091,6 +5091,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:311-49.9KLRCT-ND"
+			(at 59.69 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01871d3d-346c-48b8-b2b3-f22fd5f8378a")
 		)
@@ -5167,6 +5178,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:490-10700-1-ND"
 			(at 107.95 62.23 0)
 			(hide yes)
 			(show_name no)

@@ -1580,6 +1580,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-10700-1-ND"
+			(at 109.22 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "202dbe13-d97d-4676-9080-619171f0ca96")
 		)
@@ -1972,6 +1983,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:296-53407-ND"
+			(at 100.33 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "600f52df-872a-4845-acd6-7f18789c7448")
 		)
@@ -2064,6 +2086,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:490-10700-1-ND"
 			(at 158.75 95.25 0)
 			(hide yes)
 			(show_name no)

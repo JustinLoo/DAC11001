@@ -1223,6 +1223,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:LT3042IDD#TRPBFCT-ND"
+			(at 113.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "MPN" "LT3042IDD#TRPBF"
 			(at 113.03 76.2 0)
 			(hide yes)
@@ -1587,6 +1598,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:311-442KLRCT-ND"
+			(at 208.28 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa2f5bf0-170e-4d89-a292-a09e8324b6c4")
 		)
@@ -1663,6 +1685,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 208.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:311-10KJRCT-ND"
 			(at 208.28 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1867,6 +1900,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-10751-1-ND"
+			(at 175.26 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b164eb9b-f799-4be6-9894-65bfee0fb24c")
 		)
@@ -1943,6 +1987,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 113.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:311-750LRCT-ND"
 			(at 113.03 101.6 0)
 			(hide yes)
 			(show_name no)

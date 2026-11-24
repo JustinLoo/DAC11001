@@ -3069,6 +3069,18 @@
 				(justify bottom)
 			)
 		)
+		(property "Vendor" "digikey:732-1582-1-ND"
+			(at 142.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(property "MF" "Würth Elektronik"
 			(at 142.24 88.9 0)
 			(hide yes)
@@ -3224,6 +3236,18 @@
 			)
 		)
 		(property "Description" "Diode Schottky 30V 1A 2Pin PowerDI 123 | Diodes Inc DFLS130-7"
+			(at 71.12 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Vendor" "digikey:DFLS130DICT-ND"
 			(at 71.12 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4630,6 +4654,18 @@
 			)
 		)
 		(property "Description" "WE-CBF Ferrite Bead 0603 470Ohm 200mA | Wurth Electronics 742792642"
+			(at 143.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Vendor" "digikey:490-1054-1-ND"
 			(at 143.51 62.23 0)
 			(hide yes)
 			(show_name no)

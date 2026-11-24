@@ -646,6 +646,12 @@
 		(uuid "526575cf-9d7e-4fb1-aa0b-f647c08179e6")
 	)
 	(junction
+		(at 229.87 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c30d58c-4878-47e4-9b1b-c3013a4b3010")
+	)
+	(junction
 		(at 139.7 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -674,6 +680,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7932e35d-61ae-48a5-b311-09ce571a4bbc")
+	)
+	(junction
+		(at 209.55 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86eb0edc-ca45-4e99-bf93-81b695b482e1")
 	)
 	(junction
 		(at 194.31 106.68)
@@ -859,6 +871,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 71.12) (xy 237.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27803e5b-8d50-4ba8-a146-ce59e405f070")
+	)
+	(wire
+		(pts
 			(xy 139.7 78.74) (xy 139.7 76.2)
 		)
 		(stroke
@@ -956,6 +978,16 @@
 			(type default)
 		)
 		(uuid "610f86e6-83e3-4cc7-a2f1-70668ba7eec3")
+	)
+	(wire
+		(pts
+			(xy 229.87 97.79) (xy 229.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc8878e-56e6-43dd-8c4f-60a84d7f0953")
 	)
 	(wire
 		(pts
@@ -1229,6 +1261,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 106.68) (xy 229.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd5dfed-469d-4ade-ba15-69db4fffac14")
+	)
+	(wire
+		(pts
 			(xy 80.01 85.09) (xy 80.01 106.68)
 		)
 		(stroke
@@ -1256,6 +1298,16 @@
 			(type default)
 		)
 		(uuid "f9be30c2-c4fd-4360-9737-272fab1f4164")
+	)
+	(wire
+		(pts
+			(xy 229.87 71.12) (xy 229.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6e9f98-5c3d-432b-8299-8d0864657914")
 	)
 	(wire
 		(pts
@@ -1299,58 +1351,6 @@
 			(justify right)
 		)
 		(uuid "de6c3449-95d3-4247-bbd4-cb4a2347df53")
-	)
-	(junction
-		(at 229.87 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c30d58c-4878-47e4-9b1b-c3013a4b3010")
-	)
-	(junction
-		(at 209.55 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86eb0edc-ca45-4e99-bf93-81b695b482e1")
-	)
-	(wire
-		(pts
-			(xy 229.87 71.12) (xy 237.49 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27803e5b-8d50-4ba8-a146-ce59e405f070")
-	)
-	(wire
-		(pts
-			(xy 229.87 71.12) (xy 229.87 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6e9f98-5c3d-432b-8299-8d0864657914")
-	)
-	(wire
-		(pts
-			(xy 229.87 97.79) (xy 229.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dc8878e-56e6-43dd-8c4f-60a84d7f0953")
-	)
-	(wire
-		(pts
-			(xy 209.55 106.68) (xy 229.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd5dfed-469d-4ade-ba15-69db4fffac14")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1439,6 +1439,114 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 229.87 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c64e03a-6fb5-40a4-9dd3-e011e6f3664c")
+		(property "Reference" "C155"
+			(at 233.68 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X7R"
+			(at 233.68 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 230.8352 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LT3094 output cap at U28/U49 OUT pins 11-12 (low-ESL path, B3). Bulk is C74/C131."
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C2012X7R1E106K125AB"
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1228e49-01aa-445c-90db-46813eabd13a")
+		)
+		(pin "2"
+			(uuid "bb091ae9-2ebd-4c70-b228-f741ac9b716c")
+		)
+		(instances
+			(project "DAC11001"
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cac995fc-fb44-4f5b-9531-9b1364993bd0/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
+					(reference "C156")
+					(unit 1)
+				)
+				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
+					(reference "C155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LT3094xDD")
 		(at 125.73 81.28 0)
 		(unit 1)
@@ -1493,6 +1601,17 @@
 			)
 		)
 		(property "Description" "–20V, 500mA, Ultralow Noise, Ultrahigh PSRR Negative Linear Regulator, -1.8..-20Vin, 0..-19.5Vout, DFN-12"
+			(at 125.73 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:505-LT3094EDD#TRPBFCT-ND"
 			(at 125.73 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2258,6 +2377,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-10751-1-ND"
+			(at 180.34 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d4ddf4f-bcb1-4601-a889-80f1f807ca11")
 		)
@@ -2272,114 +2402,6 @@
 				)
 				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
 					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c64e03a-6fb5-40a4-9dd3-e011e6f3664c")
-		(property "Reference" "C155"
-			(at 233.68 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF 25V X7R"
-			(at 233.68 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 230.8352 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LT3094 output cap at U28/U49 OUT pins 11-12 (low-ESL path, B3). Bulk is C74/C131."
-			(at 229.87 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C2012X7R1E106K125AB"
-			(at 229.87 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 229.87 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1228e49-01aa-445c-90db-46813eabd13a")
-		)
-		(pin "2"
-			(uuid "bb091ae9-2ebd-4c70-b228-f741ac9b716c")
-		)
-		(instances
-			(project "DAC11001"
-				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cac995fc-fb44-4f5b-9531-9b1364993bd0/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
-					(reference "C156")
-					(unit 1)
-				)
-				(path "/56e1ebc9-5dda-4e5b-968a-f29b6556ef01/cff6e8f5-cfad-4fed-9f3f-d2e06a6b6f2f/e7fb9e1e-65b7-4a29-813d-3da9326279dd"
-					(reference "C155")
 					(unit 1)
 				)
 			)

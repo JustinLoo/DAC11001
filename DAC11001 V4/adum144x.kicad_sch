@@ -5684,6 +5684,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-10700-1-ND"
+			(at 69.85 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ceb268c0-b648-4f22-b391-7d27253d5e5c")
 		)
@@ -5760,6 +5771,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:296-11604-1-ND"
 			(at 115.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6080,6 +6102,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-10700-1-ND"
+			(at 110.49 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19328665-b62f-497b-b413-6fad85a5a50f")
 		)
@@ -6155,6 +6188,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:490-10700-1-ND"
 			(at 85.09 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6529,6 +6573,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "digikey:490-10700-1-ND"
 			(at 125.73 165.1 0)
 			(hide yes)
 			(show_name no)

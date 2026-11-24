@@ -3661,6 +3661,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:311-10KJRCT-ND"
+			(at 77.47 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d154c25-454a-4b1b-b24c-fcbe80657084")
 		)
@@ -4379,6 +4390,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-8275-1-ND"
+			(at 77.47 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba90cbac-d5e2-4751-972f-057229fe8a2c")
 		)
@@ -4849,6 +4871,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:311-10KJRCT-ND"
+			(at 124.46 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bb743f4-39f0-4d84-92f1-0cc10ecc43c9")
 		)
@@ -5020,6 +5053,17 @@
 				)
 			)
 		)
+		(property "Vendor" "digikey:490-8275-1-ND"
+			(at 124.46 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "970890d4-f0fb-4c8b-a7b3-f9e6904428e2")
 		)
@@ -5169,6 +5213,18 @@
 			)
 		)
 		(property "Description" "D-Subminiature Economy Range, Input Output Connectors, Signal 9 way Socket Right Angle, Solder Europe standard, 50 cycles, Harpoons + Female Screw UNC 4 - 40 + Elec cont., 1.6 mm PCB thickness"
+			(at 198.12 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Vendor" "digikey:609-5188-ND"
 			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
