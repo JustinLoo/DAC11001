@@ -1,2 +1,7 @@
-ape4ad5791/
+# KiCad local history, backups, locks, caches
 .history/
+*-backups/
+*.lck
+~*
+_autosave-*
+fp-info-cache
